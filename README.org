@@ -1,0 +1,4 @@
+#+TITLE: Conferences
+
+This repository holds all material related to talks or workshops I did at
+conferences.
