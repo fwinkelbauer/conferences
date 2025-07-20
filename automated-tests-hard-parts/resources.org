@@ -1,0 +1,36 @@
+#+TITLE: Additional Resources
+
+Start here:
+
+- [[https://www.youtube.com/watch?v=wEhu57pih5w&list=PLD0011D00849E1B79][The Clean Code Talks - Unit Testing (Misko Hevery)]]
+- [[https://www.youtube.com/watch?v=EZ05e7EMOLM][TDD, Where Did It All Go Wrong (Ian Cooper)]]
+- [[https://www.youtube.com/watch?v=IN9lftH0cJc][TDD Revisited (Ian Cooper)]]
+- [[https://testdesiderata.com/][TestDesiderata (Kent Beck)]]
+- [[https://www.youtube.com/watch?v=WDFN_u5FTyM][TDD Isn't Hard, It's Something Else (Dave Farley)]]
+
+Advanced topics:
+
+- [[https://www.youtube.com/watch?v=L9sXk0t8Iro][Effective Test Automation for Developers (Aki Salmi)]]
+- [[https://www.youtube.com/watch?v=Fk4rCn4YLLU][End to end functional tests that can run in milliseconds (Nat Pryce)]]
+- [[https://www.youtube.com/watch?v=1u6DdiFFH6Q][Testing as an equal 1st class citizen (Jon Jagger)]]
+- [[https://www.youtube.com/watch?v=hIMwTzAAQ-w][Sleeping with the enemy (Gojko Adzic)]]
+- [[https://www.youtube.com/watch?v=Ak1hGQuGBhY][Repeatable Execution (Mark Seemann)]]
+- [[https://blog.ploeh.dk/2022/10/17/stubs-and-mocks-break-encapsulation/][Stubs and mocks break encapsulation (Mark Seemann)]]
+- [[https://www.youtube.com/watch?v=vzr4HiQZhdY][Building Operable Software with TDD (Martin Thwaites)]]
+- [[https://www.youtube.com/watch?v=8hQG7QlcLBk][Advanced Testing with Go (Mitchell Hashimoto)]]
+- [[https://www.youtube.com/watch?v=MqC3tudPH6w][Can we test it? Yes, we can! (Mitchell Hashimoto)]]
+- [[https://www.youtube.com/watch?v=X4rxi9jStLo][Go Testing By Example (Russ Cox)]]
+
+Functional techniques:
+
+- [[https://www.youtube.com/watch?v=yTkzNHF6rMs][Boundaries (Gary Bernhardt)]]
+- [[https://www.youtube.com/watch?v=vK1DazRK_a0][Solving Problems the Clojure Way (Rafal Dittwald)]]
+- [[https://www.youtube.com/watch?v=P1vES9AgfC4][Moving IO to the edges of your app (Scott Wlaschin)]]
+
+Database testing:
+
+- [[https://www.infoq.com/articles/Testing-With-Persistence-Layers/][The Fundamentals of Testing with Persistence Layers]]
+- [[https://www.fusonic.net/en/blog/fast-unit-tests-with-databases-part-1][Fast unit tests with databases: A primer]]
+
+- [[https://www.youtube.com/watch?v=zi0rHwfiX1Q][Testing the Hard Stuff and Staying Sane (John Hughes)]]
+- [[https://fsharpforfunandprofit.com/posts/property-based-testing-2/][Choosing properties for property-based testing]]
