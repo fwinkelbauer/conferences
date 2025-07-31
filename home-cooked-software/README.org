@@ -25,4 +25,4 @@ software". Stories include:
 - Building my own command line parser just for fun
 - Complaining about performance because I have no idea how computers work
 - That C# is a decent language/environment, even on Linux
-- The joy and fulfillment that hobby projects can give
+- The joy and fulfilment that hobby projects can give
