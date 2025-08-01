@@ -5,14 +5,13 @@
 - [ ] What are pure/impure functions and side effects?
   - Architecture view
   - Timeline view
-- [ ] Managing side effects
+- [ ] Strategies to manage side effects
   - Push side effect closer to the entry point of your applications
   - Manage side effects through interfaces and dependency injection
 - [ ] Test structure
   - AAA / GWT
   - Snapshot and "journey" tests
   - Readability
-  - Essentials
   - Make sure a test can fail
 - [ ] Add behaviour using decorators
   - Truman show / The Matrix
