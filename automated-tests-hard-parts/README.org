@@ -1,13 +1,13 @@
 #+TITLE: Automated Tests: The Hard Parts
 
-- [[https://www.devopsdays.at/events/devopsdays-graz-2025][DevOpsDays Graz]] [2025-09-05]
+- [[https://www.devopsdays.at][DevOpsDays Graz]] [2025-09-05]
 - [[https://www.developer-world.de/ddc][DDC Cologne]] [2025-11-27]
 
 * Description
 
 The introduction tutorials for automated test frameworks make it look so easy.
 Write some code, write a few tests and you're done. But when dealing with
-production code we often run into challenges and learn, that the real world is
+production code we often run into problems and learn, that the real world is
 different. This workshop explores challenges and solutions to create a suite of
 automated tests in C#:
 
