@@ -1,24 +1,34 @@
 #+TITLE: Notes
 
-* Overview
+* Agenda
 
-- What are pure/impure functions and side effects?
+- [ ] What are pure/impure functions and side effects?
   - Architecture view
   - Timeline view
-- Managing side effects
+- [ ] Managing side effects
   - Push side effect closer to the entry point of your applications
   - Manage side effects through interfaces and dependency injection
-- Test structure
+- [ ] Test structure
   - AAA / GWT
   - Snapshot and "journey" tests
+  - Make sure a test can fail
   - Readability
   - Essentials
-  - Make sure a test can fail
-- Add behaviour using decorators
-  - Truman show / The Matrix
-- Bonus
+- [ ] Add behaviour using decorators
+- [ ] Bonus
+  - Code duplication
   - Unexpected use cases for testing frameworks
   - Applications that only do side effects
+  - Mocks VS hand-written code
+  - Test data builder
+
+* Tasks
+
+- [ ] Test existing code
+- [ ] Implement & test
+  - "restore backup"
+  - "check backup"
+- [ ] Design a dry-run mode
 
 * Additional Resources
 
