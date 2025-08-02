@@ -8,42 +8,19 @@ public static class Program
 {
     public static void Main()
     {
-        var source = @"???";
-        var repository = @"???";
+        var repository = new DryRunRepository(
+            new FileRepository(@"???"));
 
-        CreateSnapshot(source, repository);
-    }
+        var crypto = new Crypto(
+            Prompt.NewPassword(),
+            RandomNumberGenerator.GetBytes(Crypto.SaltBytes),
+            Crypto.DefaultIterations);
 
-    private static void CreateSnapshot(string source, string repository)
-    {
-        var chunks = Path.Combine(repository, "chunks");
-        var salt = RandomNumberGenerator.GetBytes(Crypto.SaltBytes);
-        var iterations = Crypto.DefaultIterations;
-        var crypto = new Crypto(Prompt.NewPassword(), salt, iterations);
-        var snapshotContent = new Dictionary<string, BlobData>();
+        var blobSystem = new DryRunBlobSystem(
+            new LoggingBlobSystem(
+                new FileBlobSystem(@"???")));
 
-        foreach (var file in Directory.GetFiles(source, "*", SearchOption.AllDirectories))
-        {
-            var blobData = new BlobData(file, File.GetLastWriteTimeUtc(file));
-            var blobEncrypted = crypto.Encrypt(File.ReadAllBytes(file));
-            var blobChunkId = ChunkId.From(blobEncrypted);
-            var blobStored = Path.Combine(chunks, blobChunkId);
-
-            PathUtils.EnsureParent(blobStored);
-            File.WriteAllBytes(blobStored, blobEncrypted);
-
-            snapshotContent.Add(blobChunkId, blobData);
-        }
-
-        var snapshot = new Snapshot(snapshotContent, DateTime.UtcNow);
-        var snapshotEncrypted = crypto.Encrypt(Encoding.UTF8.GetBytes(JsonSerializer.Serialize(snapshot)));
-        var snapshotChunkId = ChunkId.From(snapshotEncrypted);
-        var snapshotStored = Path.Combine(chunks, snapshotChunkId);
-
-        PathUtils.EnsureParent(snapshotStored);
-        File.WriteAllBytes(snapshotStored, snapshotEncrypted);
-
-        var snapshotData = new SnapshotData(snapshotChunkId, salt, iterations);
-        File.WriteAllBytes(Path.Combine(repository, "backup"), Encoding.UTF8.GetBytes(JsonSerializer.Serialize(snapshotData)));
+        new SnapshotStore(repository, crypto)
+            .Store(blobSystem, DateTime.UtcNow);
     }
 }

@@ -1,6 +1,6 @@
 namespace BackupTool;
 
-public sealed class Prompt
+public static class Prompt
 {
     public static string NewPassword()
     {
