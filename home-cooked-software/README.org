@@ -5,12 +5,12 @@
 * Abstract
 
 Hobby projects are a great opportunity to learn and explore software development
-at your own pace. This talk will present the story around Chunkyard, a backup
+at your own pace. This talk will present the story around [[https://github.com/fwinkelbauer/chunkyard][Chunkyard]], a backup
 tool with a single user: me.
 
 * Description
 
-Chunkyard is a backup tool that I have been building for myself over the last
+[[https://github.com/fwinkelbauer/chunkyard][Chunkyard]] is a backup tool that I have been building for myself over the last
 five years. It's a hobby project with which I can follow my curiosity to learn
 and enjoy different aspects of software development. Since I am the only real
 user, I can do whatever I feel like. In this talk I am going to share what I

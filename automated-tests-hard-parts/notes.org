@@ -40,6 +40,7 @@ Start here:
 - [[https://www.youtube.com/watch?v=IN9lftH0cJc][TDD Revisited (Ian Cooper)]]
 - [[https://testdesiderata.com/][TestDesiderata (Kent Beck)]]
 - [[https://www.youtube.com/watch?v=WDFN_u5FTyM][TDD Isn't Hard, It's Something Else (Dave Farley)]]
+- [[https://www.youtube.com/watch?v=bLpwNWWs5EY][Epistemology of software (Mark Seemann)]]
 
 Advanced topics:
 
