@@ -6,7 +6,7 @@
   - Architecture view
   - Timeline view
 - [ ] Managing side effects
-  - Push side effect closer to the entry point of your applications
+  - Push side effect closer to the entry point of your applications or
   - Manage side effects through interfaces and dependency injection
 - [ ] Test structure
   - AAA / GWT
@@ -65,6 +65,7 @@ Database testing:
 
 - [[https://www.infoq.com/articles/Testing-With-Persistence-Layers/][The Fundamentals of Testing with Persistence Layers]]
 - [[https://www.fusonic.net/en/blog/fast-unit-tests-with-databases-part-1][Fast unit tests with databases: A primer]]
+- [[https://calpaterson.com/against-database-teardown.html][The argument against clearing the database between tests]]
 
 Property-based testing:
 

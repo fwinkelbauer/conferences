@@ -22,7 +22,10 @@ public static class Program
 
         foreach (var file in Directory.GetFiles(source, "*", SearchOption.AllDirectories))
         {
-            var blob = new Blob(file, File.GetLastWriteTimeUtc(file));
+            var blob = new Blob(
+                Path.GetRelativePath(source, file),
+                File.GetLastWriteTimeUtc(file));
+
             var blobEncrypted = crypto.Encrypt(File.ReadAllBytes(file));
             var blobChunkId = ChunkId.From(blobEncrypted);
             var blobStored = Path.Combine(chunks, blobChunkId);
