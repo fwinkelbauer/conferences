@@ -4,23 +4,14 @@
 
 * Abstract
 
-Hobby projects are a great opportunity to learn and explore software development
-at your own pace. This talk will present the story around [[https://github.com/fwinkelbauer/chunkyard][Chunkyard]], a backup
-tool with a single user: me.
+Hobby projects are a great opportunity to learn and explore software development at your own pace. This talk will present the story around [[https://github.com/fwinkelbauer/chunkyard][Chunkyard]], a backup tool with a single user: me.
 
 * Description
 
-[[https://github.com/fwinkelbauer/chunkyard][Chunkyard]] is a backup tool that I have been building for myself over the last
-five years. It's a hobby project with which I can follow my curiosity to learn
-and enjoy different aspects of software development. Since I am the only real
-user, I can do whatever I feel like. In this talk I am going to share what I
-have learned over the years while building this tiny piece of "home-cooked
-software". Stories include:
+[[https://github.com/fwinkelbauer/chunkyard][Chunkyard]] is a backup tool that I have been building for myself over the last five years. It's a hobby project with which I can follow my curiosity to learn and enjoy different aspects of software development. Since I am the only real user, I can do whatever I feel like. In this talk I am going to share what I have learned over the years while building this tiny piece of "home-cooked software". Stories include:
 
-- Learning more about encryption, content-defined chunking and
-  content-addressable storage
-- Doing "stupid" things like using a text editor and a terminal instead of an
-  IDE
+- Learning more about encryption, content-defined chunking and content-addressable storage
+- Doing "stupid" things like using a text editor and a terminal instead of an IDE
 - Deepening my knowledge about automated tests by going "all in"
 - Building my own command line parser just for fun
 - Complaining about performance because I have no idea how computers work

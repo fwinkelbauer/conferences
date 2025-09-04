@@ -5,11 +5,7 @@
 
 * Description
 
-The introduction tutorials for automated test frameworks make it look so easy.
-Write some code, write a few tests and you're done. But when dealing with
-production code we often run into problems and learn, that the real world is
-different. This workshop explores challenges and solutions to create a suite of
-automated tests in C#:
+The introduction tutorials for automated test frameworks make it look so easy. Write some code, write a few tests and you're done. But when dealing with production code we often run into problems and learn, that the real world is different. This workshop explores challenges and solutions to create a suite of automated tests in C#:
 
 - Learn new aspects of how to think about code
 - Try different testing strategies
