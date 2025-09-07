@@ -30,6 +30,11 @@
   - "check backup"
 - [ ] Design a dry-run mode
 
+* See
+
+- The branch ~automated-tests-hard-parts~ of this repository for a finished example that includes tests
+- This [[../home-cooked-software/README.org][presentation]] to learn more about my own backup tool and it's tests
+
 * Additional Resources
 
 Start here:
