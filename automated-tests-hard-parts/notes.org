@@ -10,7 +10,7 @@
   - Manage side effects through interfaces and dependency injection
 - [ ] Test structure
   - AAA / GWT
-  - Snapshot and "journey" tests
+  - Snapshot and journey tests
   - Make sure a test can fail
   - Readability
   - Essentials
@@ -30,15 +30,14 @@
   - "check backup"
 - [ ] Design a dry-run mode
 
-* See
-
-- The branch ~automated-tests-hard-parts~ of this repository for a finished example that includes tests
-- This [[../home-cooked-software/README.org][presentation]] to learn more about my own backup tool and it's tests
+See the branch ~automated-tests-hard-parts~ for a finished example that includes tests.
 
 * Additional Resources
 
 Start here:
 
+- [[../home-cooked-software/README.org][Home-cooked Software: A Backup Tale]]
+  - A "real" backup application with tests
 - [[https://www.youtube.com/watch?v=wEhu57pih5w&list=PLD0011D00849E1B79][The Clean Code Talks - Unit Testing (Misko Hevery)]]
   - [[https://github.com/mhevery/guide-to-testable-code][Written guide]]
 - [[https://www.youtube.com/watch?v=EZ05e7EMOLM][TDD, Where Did It All Go Wrong (Ian Cooper)]]
