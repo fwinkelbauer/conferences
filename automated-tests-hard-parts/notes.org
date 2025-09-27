@@ -30,8 +30,6 @@
   - "check backup"
 - [ ] Design a dry-run mode
 
-See the branch ~automated-tests-hard-parts~ for a finished example that includes tests.
-
 * Additional Resources
 
 Start here:
