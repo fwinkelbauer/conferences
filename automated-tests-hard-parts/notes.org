@@ -1,5 +1,13 @@
 #+TITLE: Notes
 
+* Introduction
+
+- Hi, I'm Florian!
+  - Software developer
+  - https://florianwinkelbauer.com
+- This content is available on GitHub
+  - https://github.com/fwinkelbauer/conferences
+
 * Agenda
 
 - [ ] What are pure/impure functions and side effects?
