@@ -29,6 +29,9 @@
   - Applications that only do side effects
   - Mocks VS hand-written code
   - Test data builder
+  - Legacy systems
+  - Architecture changes
+  - (Manual) code coverage
 
 * Tasks
 
