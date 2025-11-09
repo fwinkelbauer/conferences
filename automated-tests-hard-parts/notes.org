@@ -24,13 +24,13 @@
   - Essentials
 - [ ] Add behaviour using decorators
 - [ ] Bonus
-  - Code duplication
+  - Snapshot testing tools
   - Unexpected use cases for testing frameworks
-  - Applications that only do side effects
+  - Code duplication and architecture changes
+  - Testing side effects
   - Mocks VS hand-written code
   - Test data builder
   - Legacy systems
-  - Architecture changes
   - (Manual) code coverage
 
 * Tasks
@@ -45,15 +45,15 @@
 
 Start here:
 
-- [[../home-cooked-software/README.org][Home-cooked Software: A Backup Tale]]
-  - A "real" backup application with tests
+- [[../home-cooked-software/README.org][Home-cooked Software: A Backup Tale (Florian Winkelbauer)]]
+  - If you want to see a "real" backup application with tests
 - [[https://www.youtube.com/watch?v=wEhu57pih5w&list=PLD0011D00849E1B79][The Clean Code Talks - Unit Testing (Misko Hevery)]]
-  - [[https://github.com/mhevery/guide-to-testable-code][Written guide]]
+  - Also available as a [[https://github.com/mhevery/guide-to-testable-code][written guide]]
 - [[https://www.youtube.com/watch?v=EZ05e7EMOLM][TDD, Where Did It All Go Wrong (Ian Cooper)]]
 - [[https://www.youtube.com/watch?v=IN9lftH0cJc][TDD Revisited (Ian Cooper)]]
 - [[https://testdesiderata.com/][TestDesiderata (Kent Beck)]]
 - [[https://www.youtube.com/watch?v=WDFN_u5FTyM][TDD Isn't Hard, It's Something Else (Dave Farley)]]
-- [[https://www.youtube.com/watch?v=bLpwNWWs5EY][Epistemology of software (Mark Seemann)]]
+- [[https://blog.ploeh.dk/2025/10/27/empirical-test-after-development][Empirical test-after development (Mark Seemann)]]
 
 Advanced topics:
 

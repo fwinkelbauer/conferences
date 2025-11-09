@@ -3,6 +3,15 @@ root = true
 [*]
 charset = utf-8
 
+[*.{received,verified}.{json,txt,xml}]
+charset = utf-8-bom
+end_of_line = lf
+indent_size = unset
+indent_style = unset
+insert_final_newline = false
+tab_width = unset
+trim_trailing_whitespace = false
+
 [*.cs]
 dotnet_diagnostic.CA1062.severity = none
 dotnet_diagnostic.CA1303.severity = none
