@@ -26,10 +26,10 @@
 - [ ] Bonus
   - Snapshot testing tools
   - Unexpected use cases for testing frameworks
-  - Code duplication and architecture changes
-  - Testing side effects
-  - Mocks VS hand-written code
   - Test data builder
+  - Testing side effects
+  - Code duplication and architecture changes
+  - Mocks VS hand-written code
   - Legacy systems
   - (Manual) code coverage
 

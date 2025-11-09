@@ -1,7 +1,7 @@
 namespace BackupTool;
 
 public sealed record Blob(string Name, DateTime LastWriteTimeUtc);
-public sealed record Snapshot(Dictionary<string, Blob> Blobs, DateTime CreationTimeUtc);
+public sealed record Snapshot(IReadOnlyDictionary<string, Blob> Blobs, DateTime CreationTimeUtc);
 public sealed record SnapshotData(string ChunkId, string Salt, int Iterations);
 
 public static class Program
