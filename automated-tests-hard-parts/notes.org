@@ -3,10 +3,18 @@
 * Introduction
 
 - Hi, I'm Florian!
-  - Software developer
+  - Software developer @ Intact GmbH
   - https://florianwinkelbauer.com
 - This content is available on GitHub
   - https://github.com/fwinkelbauer/conferences
+
+* Tasks
+
+- [ ] Test existing code
+- [ ] Implement & test
+  - "restore backup"
+  - "check backup"
+- [ ] Design a dry-run mode
 
 * Agenda
 
@@ -32,14 +40,6 @@
   - Mocks VS hand-written code
   - Legacy systems
   - (Manual) code coverage
-
-* Tasks
-
-- [ ] Test existing code
-- [ ] Implement & test
-  - "restore backup"
-  - "check backup"
-- [ ] Design a dry-run mode
 
 * Additional Resources
 
