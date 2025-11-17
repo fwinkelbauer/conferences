@@ -10,6 +10,8 @@
 
 * Tasks
 
+Let's refactor and extend a backup tool with testing in mind:
+
 - [ ] Test existing code
 - [ ] Implement & test
   - "restore backup"
@@ -19,11 +21,12 @@
 * Agenda
 
 - [ ] What are pure/impure functions and side effects?
-  - Architecture view
-  - Timeline view
 - [ ] Managing side effects
   - Push side effect closer to the entry point of your applications or
   - Manage side effects through interfaces and dependency injection
+- [ ] Highlighting side effects
+  - Architecture view
+  - Timeline view
 - [ ] Test structure
   - AAA / GWT
   - Snapshot and journey tests
@@ -33,13 +36,13 @@
 - [ ] Add behaviour using decorators
 - [ ] Bonus
   - Snapshot testing tools
-  - Unexpected use cases for testing frameworks
   - Test data builder
   - Testing side effects
   - Code duplication and architecture changes
   - Mocks VS hand-written code
   - Legacy systems
-  - (Manual) code coverage
+  - (Manual) [[https://florianwinkelbauer.com/posts/2024-08-10-dotnet-coverage][code coverage]]
+  - Unexpected use cases for testing frameworks
 
 * Additional Resources
 
