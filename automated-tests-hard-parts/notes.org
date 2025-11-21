@@ -41,8 +41,7 @@ Let's refactor and extend a backup tool with testing in mind:
   - Code duplication and architecture changes
   - Mocks VS hand-written code
   - Legacy systems
-  - (Manual) [[https://florianwinkelbauer.com/posts/2024-08-10-dotnet-coverage][code coverage]]
-  - Unexpected use cases for testing frameworks
+  - Testing beyond the pyramid
 
 * Additional Resources
 
@@ -87,3 +86,9 @@ Property-based testing:
 
 - [[https://www.youtube.com/watch?v=zi0rHwfiX1Q][Testing the Hard Stuff and Staying Sane (John Hughes)]]
 - [[https://fsharpforfunandprofit.com/posts/property-based-testing-2/][Choosing properties for property-based testing]]
+
+Working with legacy code:
+
+- Working Effectively with Legacy Code (Michael Feathers)
+- [[https://haacked.com/archive/2016/01/20/scientist][Scientist]]
+- [[https://florianwinkelbauer.com/posts/2024-08-10-dotnet-coverage][Manual code coverage]]
