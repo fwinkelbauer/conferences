@@ -69,6 +69,7 @@ Advanced topics:
 - [[https://www.youtube.com/watch?v=8hQG7QlcLBk][Advanced Testing with Go (Mitchell Hashimoto)]]
 - [[https://www.youtube.com/watch?v=MqC3tudPH6w][Can we test it? Yes, we can! (Mitchell Hashimoto)]]
 - [[https://www.youtube.com/watch?v=X4rxi9jStLo][Go Testing By Example (Russ Cox)]]
+- [[https://antithesis.com/][Run Deterministic Sideeffects]
 
 Functional techniques:
 
@@ -92,3 +93,4 @@ Working with legacy code:
 - Working Effectively with Legacy Code (Michael Feathers)
 - [[https://haacked.com/archive/2016/01/20/scientist][Scientist]]
 - [[https://florianwinkelbauer.com/posts/2024-08-10-dotnet-coverage][Manual code coverage]]
+- [[https://github.com/timonkrebs/BettererNet]][Interesanter Testing Approach]
