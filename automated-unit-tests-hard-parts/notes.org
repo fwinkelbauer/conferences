@@ -29,7 +29,7 @@ Let's refactor and extend a backup tool with testing in mind:
   - Timeline view
 - [ ] Test structure
   - AAA / GWT
-  - Snapshot and journey tests
+  - Snapshot and round-trip tests
   - Make sure a test can fail
   - Readability
   - Essentials

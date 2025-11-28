@@ -1,4 +1,4 @@
-#+TITLE: Automated Tests: The Hard Parts
+#+TITLE: Automated Unit Tests: The Hard Parts
 
 - [[https://www.devopsdays.at][DevOpsDays Graz]] [2025-09-05]
 - [[https://www.developer-world.de/ddc][DDC Cologne]] [2025-11-27]
